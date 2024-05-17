@@ -3,4 +3,89 @@
     height: 60px;
     margin-left: 10px;
 }
+.imagen {
+    background-color: rgb(240, 10, 10);
+    width: 200px;
+    height: auto;
+}
+
+header img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 80px;
+}
+body{
+    background: rgb(255, 198, 144);
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(241, 20, 49, 0.993);
+    font-size: 1.7em;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    }
+
+main {
+        padding: 10px 200px;
+}
+
+.container1{
+    text-align: center;
+  }
+footer {
+    background-color: #a9fcea;
+    color: #070707;
+    text-align: center;
+    padding: 30px;
+}
+user agent stylesheet
+footer {
+    display: block;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+}
+
+body{
+    background-image: url('https://i.pinimg.com/236x/a0/56/f8/a056f85a1b89f4d99fc20d71c57c39ec.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #000000;
+    }
+
+.img_3 {
+    position: relative ;
+    width: 600px;
+    height: 550px;
+    transform: translate(300px, 0px); /* Traslada la imagen */
+
+}
+p {
+    font: oblique bold 120% cursive;
+  }
+
 
